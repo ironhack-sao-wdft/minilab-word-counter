@@ -1,3 +1,27 @@
 body {
   font-family: "Roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.botao {
+  background-color: rgb(96, 174, 223);
+  color: white;
+  font-size: 1.5em;
+  border-radius: 3%;
+  width: 17em;
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+.tamanhoCaixa {
+  width: 30em; height: 10em;
+  border-radius: 2%;
+  margin-top: 25em;
+}
+.textoContagem {
+  size-adjust: 10em;
+  margin-left: 2em;
+  font-weight: 500;
+  font-size: 2.5em;
+  margin-top: 9em;
 }
