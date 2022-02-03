@@ -1,3 +1,33 @@
 body {
   font-family: "Roboto", sans-serif;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputBtn {
+  display: flex;
+  flex-direction: column;
+}
+
+#textbox {
+  width: 300px;
+  height: 100px;
+  margin: 70px 100px 10px 50px;
+}
+
+#btn {
+  width: 310px;
+  height: 50px;
+  font-size: 18px;
+  margin: 52px;
+  padding: 0;
+  background-color: #4da9fd;
+  color: #fff;
+  border: none;
+}
+
+#counter {
+  font-size: 32px;
 }
