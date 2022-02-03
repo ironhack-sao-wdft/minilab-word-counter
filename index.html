@@ -18,12 +18,12 @@
   </head>
   <body>
     <div>
-      <textarea class="tamanhoCaixa"></textarea>
+      <textarea class="tamanhoCaixa" id="localDasPalavras"></textarea>
       <div>
-        <button id="botaoExecutar" class="botao"><b>Contar palavras</b></button>
+        <button onclick="contarPalavra()" class="botao"><b>Contar palavras</b></button>
       </div>
     </div>
-    <div class="textoContagem"><b>Você digitou <span class="textoContador">0</span> palavras</b></div>
+    <div class="textoContagem" id="variavelNumero"><b>Voce digitou 0 palavras</b></div>
     <script src="./assets/scripts/index.js"></script>
   </body>
 </html>
