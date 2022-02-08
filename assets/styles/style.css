@@ -1,3 +1,17 @@
 body {
   font-family: "Roboto", sans-serif;
+  height: 100vh;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.element-container {
+  display: flex;
+  flex-direction: column;
+  margin: 3rem;
 }
