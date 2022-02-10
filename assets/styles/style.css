@@ -1,3 +1,28 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+.wrapper {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-left: 4rem;
+  margin-top: 4rem;
+  height: 15rem;
+  width: 25rem;
+}
+
+p{
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+
+.btn{
+  margin-top: 0.5rem;
+}

@@ -11,12 +11,23 @@
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    
+      
     <link rel="stylesheet" type="text/css" href="./assets/styles/style.css" />
 
     <title>Contador de palavras</title>
   </head>
   <body>
+    <div class=" wrapper">
+      <div class="input-wrapper ">
+        <textarea id="textBox" rows="5"></textarea>
+        <button class=" btn btn btn-primary"   id="countWordsButton" type="button">Contar palavras</button>
+     </div>
+    
+    <p>Você digitou <span id="wrdCounter">0</span> palavras </p>
+    </div>
     <script src="./assets/scripts/index.js"></script>
   </body>
 </html>
