@@ -1,7 +1,7 @@
 body {
   font-family: "Roboto", sans-serif;
 }
-.container {
+.wrapper {
   height: 100%;
   display: flex;
   justify-content: center;
@@ -9,7 +9,7 @@ body {
   
 }
 
-.input-container {
+.input-wrapper {
   display: flex;
   flex-direction: column;
   margin-left: 4rem;
